@@ -1,0 +1,79 @@
+/* CSS Document */
+.nadpis-odkaz {
+            font-size: 20px;
+            padding: 5px;
+            background-color: rgb(41, 43, 44);
+            border-radius: 10px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        .nadpisB-odkaz {
+            font-size: 20px;
+            padding: 5px;
+            background-color: rgb(41, 43, 44);
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        .nadpisC-odkaz {
+            font-size: 20px;
+            padding: 5px;
+            background-color: rgb(41, 43, 44);
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        .nadpisD-odkaz {
+            font-size: 20px;
+            padding: 5px;
+            background-color: rgb(41, 43, 44);
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        .kapitola-odkaz {
+            background-color: rgba(140, 161, 255, 0.685)
+        }
+
+        .kapitolaB-odkaz {
+            background-color: rgba(140, 161, 255, 0.404)
+        }
+
+        .kapitolaC-odkaz {
+            background-color: rgba(140, 161, 255, 0.685)
+        }
+
+        .kapitolaD-odkaz {
+            background-color: rgba(140, 161, 255, 0.404)
+        }
+
+        .kapitolaE-odkaz {
+            background-color: rgba(140, 161, 255, 0.685)
+        }
+
+        .kapitolaF-odkaz {
+            background-color: rgba(140, 161, 255, 0.404)
+        }
+
+        a:visited {
+            color: rgb(255, 255, 255); 
+            background-color: transparent;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            color: rgb(140, 161, 255);
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(214, 112, 255);
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-family: monospace
+        }

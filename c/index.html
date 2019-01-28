@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>Ovladače, firmware, utility</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+
+  <style>
+    .uvodni-nadpis {
+      font-size: 35px;
+      padding: 10px;
+      background-color: rgb(41, 43, 44);
+
+    }
+
+    body {
+      background-color: rgba(143, 143, 143, 0.089);
+    }
+
+    h5 {
+      font-family: Verdana
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container">
+
+    <h2 class="text-white alert text-center bg-info uvodni-nadpis">C - Ovladače, firmware, utility</h2>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="pb-2 mb-2 border-bottom">Ovladače, firmware, utility</h3>
+        <p class="text-block">
+          K systémovému software můžeme kromě operačních systémů zařadit
+          ovladače hardarových zařízení, firmware a aspoň zčásti i tzv. utility.
+        </p>
+        <p>
+          <b>Ovladače zařízení</b> (device drivers). Speciální programy, které zajišťují komunikaci OS s určitým
+          technickým
+          vybavením. Bez potřebného ovladače nemůže
+          zařízení správně fungovat. Standardní ovladače pro běžná zařízení, jakými
+          jsou flash disk, myš, klávesnice nebo digitální fotoaparáty, bývají součástí
+          moderních OS. Instalaci zařízení ve Windows usnadňuje standard <b>Plug and
+            Play</b> (PnP - „připoj a hrej“), který zajistí automatickou detekci nově připojeného hardware a případně i
+          automatické vyhledání potřebného ovladače. Není-li
+          driver nalezen přímo v OS, musí být použit externí instalátor ovladače z disku dodaného se zařízením (např. z
+          instalačního CD k tiskárně), nebo stažený
+          z internetových stránek, nejlépe přímo od výrobce. Nevhodně zvolený ovladač
+          může v krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.
+        </p>
+        <p>
+          <b>Firmware</b>. Programové vybavení, které slouží pro řízení nějakého vestavěného systému (embedded system).
+          Firmware řídí například kalkulačky,
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <h3 class="pb-4 mb-2 border-bottom"></h3>
+          <p class="text-block">
+            počítačové komponenty (pevný disk, router…), mobilní telefon, digitální fotoaparát atd.
+            Dříve byla aktualizace firmwaru realizována nahrazením paměťového média
+            obsahujícího firmware (např. výměna ROM paměti), dnes může být novější verze firmware přepsána díky
+            používaným flash pamětem. Základním firmwarem
+            v počítači je <b>BIOS</b> (Basic Output-Input System), který zajišťuje především start
+            počítače a umožňuje konfiguraci základní desky i připojeného hardware.
+          </p>
+          <img src="bios.gif" width="300" height="260"
+          class="mb-4">
+          <p>
+            <b>Utility</b>. Jsou menší pomocné programy, které umožňují vykonávat servisní
+            operace potřebné k fungování počítače. Patří k nim komprimační programy,
+            diagnostické a testovací programy, utility pro kontrolu a optimalizaci operačního systému, různé konverzní
+            (převodní) programy, které umí přehledně zobrazit obrázky, převést je z jednoho formátu na jiný atd. Řada
+            utilit je integrální
+            součástí OS. Příkladem může být Správce úloh ve Windows (Task Manager),
+            který umožňuje nejen správu spuštěných programů a služeb, ale i sledování
+            využití systémových zdrojů (procesoru, paměti). Dalšími užitečnými utilitami
+            jsou nástroje pro defragmentaci (defrag) nebo kontrolu disku (chkdsk). Některé
+            utility lze spouštět z příkazového řádku (ping, ipconfig apod.).
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+      </div>
+    </div>
+  </main>
+
+  <footer class="container">
+    <hr>
+    <p> 2019 - Ivo Chovanec - IT1</p>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

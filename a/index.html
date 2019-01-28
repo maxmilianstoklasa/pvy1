@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Programové a datové soubory</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <style>
+        .uvodni-nadpis {
+            font-size: 35px;
+            padding: 10px;
+            background-color: rgb(41, 43, 44);
+
+        }
+
+        body {
+            background-color: rgba(0, 119, 255, 0.129);
+        }
+
+        h5 {
+            font-family: Verdana
+        }
+
+        .mark {
+            border-left: 4px solid rgb(0, 119, 255);
+            background-color: rgba(140, 161, 255, 0.192);
+        }
+        a:hover {
+            background-color: rgba(140, 161, 255, 0.192);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+
+        <h2 class="text-white alert text-center bg-info uvodni-nadpis">A - Programové datové soubory</h2>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="pb-2 mb-2 border-bottom">Programové a datové soubory
+                </h3>
+                <p class="text-block">
+                    <b><i>Soubor</i></b> (file) je množina souvisejících dat uložených na diskové jednotce. Název
+                    souboru je
+                    obvykle
+                    tvořen jménem (ve Windows až 254 znaků) a příponou, která naznačuje <b>typ souboru</b>. K dalším
+                    vlastnostem
+                    souboru patří jeho velikost, autor (vlastník), datum vytvoření, datum změny, atributy, přístupová
+                    práva
+                    apod.
+                </p>
+                <p>
+                    K přehlednější práci se soubory slouží systém <b>adresářů</b> či složek (directories, folders).
+                    Adresáře tvoří na disku typicky
+                    hierarchickou strukturu (tree - strom); základem je tzv. <b>kořenový adresář</b> (root) označený
+                    symbolem „/“
+                    (Unix, Linux), nebo „\“ (Windows). Každý adresář může obsahovat soubory i <b>podadresáře</b>
+                    (<i>subdirectories</i>).
+                </p>
+                <p>
+                    <b>Cesta</b> (path) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře:
+                    <i>C:\XAMPP\mysql\bin\mysql.exe.</i> Pro operace se
+                    soubory využíváme někdy <b>zástupné znaky</b> (wildcards):
+                    <ul>
+                        <li>
+                            symbol <b>*</b> nahrazuje v názvu libovolný počet
+                            znaků(např. *.*);
+                        </li>
+                        <li>
+                            symbol <b>?</b> nahrazuje jeden libovolný znak (např. s?s.txt).
+                        </li>
+                    </ul>
+                    <b>Programové soubory</b> obsahují instrukce, podle nichž procesor ve
+                    spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+                    Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve
+                    <b>strojovém kódu</b> pro danou platformu), nebo ve <b>zdrojovém kódu</b>,
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <h3 class="pb-4 mb-2 border-bottom"></h3>
+                    <p class="text-block">
+                        obsahujícím příkazy určitého programovacího jazyka. Mezi programové
+                        soubory můžeme zařadit také <b>skripty</b>, soubory instrukcí v textové podobě, které ke svému
+                        spuštění vyžadují speciální program - <b>interpret</b>.
+                    </p>
+                    <a href="https://cs.wikipedia.org/wiki/Zdrojov%C3%BD_k%C3%B3d" target="blank"
+                    class="mb-3 border border-blue p-2">Více o zdrojovém kódu</a>
+                    <p class="mark">
+                        <small>
+                            Větší programy jsou tvořeny <b>programovými knihovnami</b> (<i>runtime libraries</i>),
+                            speciálními soubory s připravenými funkcemi, které programy využívají pro
+                            svůj běh. Ve Windows to jsou např. soubory DRV a SYS (obsahující zejména
+                            ovladače čili drivery, ale i systémové funkce), nebo také <b>DLL</b> (dynamic linking
+                            library - dynamicky linkované knihovny), které mohou být podle potřeby za
+                            běhu (dynamicky) připojeny k jednomu i více programům.
+                        </small>
+                    </p>
+                    <p class="mark">
+                        <small>
+                            Některé soubory s tzv. <b>spustitelnou příponou</b> (např. .exe a .com ve Windows, .sh v
+                            Linuxu)
+                            slouží ke spuštění programu - aktivaci procesu v rámci
+                            operačního systému. Za <b>rezidentní programy</b> (služby, démony) označujeme
+                            ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému
+                            (např. antivirové programy).
+                        </small>
+                    </p>
+                    <p>
+                        <b>Datové soubory</b> obsahují data různého charakteru (číselné, textové,
+                        grafické, zvukové údaje). K jejich zpracování se používají konkrétní
+                        programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou
+                        aplikací (např. DOCX s programem MS
+                        Word, nebo XLSX s programem MS Excel).
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <hr>
+        <p> 2019 - Ivo Chovanec - IT1</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
